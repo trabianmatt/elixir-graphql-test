@@ -1,6 +1,6 @@
 # GraphQLTest
 
-To start the server server:
+To start the server:
 
   * Install Elixir with `brew install elixir`
   * Install dependencies with `mix deps.get`
