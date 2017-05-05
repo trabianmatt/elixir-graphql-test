@@ -26,6 +26,9 @@ defmodule GraphQLTest.Web.Endpoint do
     key: "_graphql_test_key",
     signing_salt: "de0bGhel"
 
+  # Connect to the GraphQL Schema
+  plug Absinthe.Plug,
+    schema: GraphQLTest.Schema
 
   @doc """
   Dynamically loads configuration from the system environment
